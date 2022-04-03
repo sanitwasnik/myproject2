@@ -1,0 +1,213 @@
+#segment-one{
+    text-align: center;
+}
+
+#segment-one .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#segment-one .option{
+    background-color: #d3134f;
+}
+#segment-one .option .navbar li a{
+    color: #fff;
+    text-decoration: none;
+}
+#segment-one .nav-first{
+    background-color: #c4a07e;
+    padding: 13px 0;
+    
+}
+#segment-one .nav-first p{
+    font-size: 12px;
+    color: #fff;
+}
+#segment-one .name .col-lg-4 span{
+    font-family: 'Send Flowers', cursive;
+
+}
+#segment-one .name .col-lg-4 h1,p{
+    font-family: 'BIZ UDPMincho', serif;
+    color: #E2C275;
+}
+#segment-one .name .col-lg-4 p a{
+    text-decoration: none;
+    color: #111;
+}
+#segment-one .name  .search{
+    padding:8px;
+    font-size:20px ;}
+#segment-one .name  .search a{
+    text-decoration: none;
+    color: #111;
+    padding: 8px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#features{
+    text-align: center;
+}
+#features .info p{
+    text-align: justify;
+    padding: 0 10px;
+}
+#features .row .col-lg-4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+#footer{
+    text-align: center;
+}
+.links li{
+    list-style: none;
+    /* padding: 0 20px; */
+    /* position: relative; */
+}
+
+#footer .foots{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#footer .foots img{
+   
+}
+#products .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#products .pro{
+    width: 15%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+}
+#products .pro img{
+    
+    
+}
+#products .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#banner {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* #video video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+
+} */
+#products h4{
+    font-style: italic;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    font-weight: 100;
+
+} 
+#products .pro-container .pro .des button{
+    background-color: #d3134f;
+    color: #fff;
+    
+}
+#products .pro-container .pro .des h5{
+    font-family: 'Lato', sans-serif;
+}
+
+#features .row .col-lg-4 {
+    
+} 
+#features .row{
+    padding: 50px 0;
+}
+
+#features .row .col-lg-4 p{
+    font-family: 'Lato', sans-serif ;
+    color: #111;
+}
+#features .info h6{
+    font-weight: 500;
+
+}
+
+#features .info p{
+    color: #111;
+}
+#footer{
+background-color: #ffb8bf;
+color: #fff;
+}
+#footer .row {
+    padding-top: 20px;
+}
+
+#footer .row .col-lg-3 p{
+    color: #fff;
+}
+#footer .row .col-lg-3 a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer .row .col-lg-3 .media a{
+    padding: 5px;
+}
+#footer hr{
+    color: #fff;
+}
+#footer .foots p{
+    color: #fff;
+}
+#footer .row .col-lg-3 h1 span{
+    font-family: 'Send Flowers', cursive;
+
+}
+#footer .row .col-lg-3 h1{
+    font-family: 'BIZ UDPMincho', serif;
+  
+}
+
+@media only screen and (max-width: 1399px) {
+    html{
+      max-width: 100%;
+    }
+    #segment-one{max-width: 100%;}
+    #products{max-width: 100%;}
+    #features .info{max-width: 100%;}
+    #footer{max-width: 100%;}
+    #banner{max-width: 100%;}
+}
